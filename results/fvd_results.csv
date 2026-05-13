@@ -1,0 +1,61 @@
+prompt_idx,prompt,config,seed,fvd_vs_baseline
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",A: Scheduler Only,42,142.26546154075936
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",B: Neg Prompt Only,42,138.14712487672801
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",C: Guidance Only,42,397.40529095915923
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",D: All Combined,42,164.3237593667754
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",A: Scheduler Only,123,209.23814646078227
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",B: Neg Prompt Only,123,270.7506160833315
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",C: Guidance Only,123,299.49802408789515
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",D: All Combined,123,306.8980621630057
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",A: Scheduler Only,456,46.98679712294774
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",B: Neg Prompt Only,456,292.1489127842871
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",C: Guidance Only,456,119.9769658291123
+0,"A camel moving in the desert with pyramids in the background, dramatic sunset",D: All Combined,456,122.19016495679259
+1,"A golden retriever running through a field of wildflowers, sunny day",A: Scheduler Only,42,49.62993811776738
+1,"A golden retriever running through a field of wildflowers, sunny day",B: Neg Prompt Only,42,141.62396404721545
+1,"A golden retriever running through a field of wildflowers, sunny day",C: Guidance Only,42,110.07590740437662
+1,"A golden retriever running through a field of wildflowers, sunny day",D: All Combined,42,105.02163907355946
+1,"A golden retriever running through a field of wildflowers, sunny day",A: Scheduler Only,123,268.5444175315151
+1,"A golden retriever running through a field of wildflowers, sunny day",B: Neg Prompt Only,123,305.5962524421142
+1,"A golden retriever running through a field of wildflowers, sunny day",C: Guidance Only,123,236.91649420609428
+1,"A golden retriever running through a field of wildflowers, sunny day",D: All Combined,123,267.5181175571786
+1,"A golden retriever running through a field of wildflowers, sunny day",A: Scheduler Only,456,139.54027236505578
+1,"A golden retriever running through a field of wildflowers, sunny day",B: Neg Prompt Only,456,114.58166088638065
+1,"A golden retriever running through a field of wildflowers, sunny day",C: Guidance Only,456,170.98855099602258
+1,"A golden retriever running through a field of wildflowers, sunny day",D: All Combined,456,111.22249931444449
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",A: Scheduler Only,42,84.98086938434733
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",B: Neg Prompt Only,42,129.3042496036369
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",C: Guidance Only,42,105.46770742938051
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",D: All Combined,42,136.11689376180766
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",A: Scheduler Only,123,40.083042006597935
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",B: Neg Prompt Only,123,26.579595175520573
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",C: Guidance Only,123,121.05547876366265
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",D: All Combined,123,29.85729718964595
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",A: Scheduler Only,456,8.65477634123314
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",B: Neg Prompt Only,456,43.80990504573146
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",C: Guidance Only,456,38.37818976937944
+2,"Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",D: All Combined,456,39.758070048672366
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",A: Scheduler Only,42,42.316492528715244
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",B: Neg Prompt Only,42,67.17027284062216
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",C: Guidance Only,42,103.03074713168853
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",D: All Combined,42,95.74394324514765
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",A: Scheduler Only,123,114.8162107221116
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",B: Neg Prompt Only,123,180.76039335352755
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",C: Guidance Only,123,167.5384084355744
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",D: All Combined,123,187.24307802800385
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",A: Scheduler Only,456,62.0397483416192
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",B: Neg Prompt Only,456,75.27076157216031
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",C: Guidance Only,456,76.8243884700678
+3,"A butterfly landing on a flower in a garden, macro shot, soft focus background",D: All Combined,456,58.28845412631473
+4,A busy city street at night with neon signs and rain reflections,A: Scheduler Only,42,50.590590860047534
+4,A busy city street at night with neon signs and rain reflections,B: Neg Prompt Only,42,109.63309765428248
+4,A busy city street at night with neon signs and rain reflections,C: Guidance Only,42,104.63996476043451
+4,A busy city street at night with neon signs and rain reflections,D: All Combined,42,103.17558591934988
+4,A busy city street at night with neon signs and rain reflections,A: Scheduler Only,123,61.14520989261674
+4,A busy city street at night with neon signs and rain reflections,B: Neg Prompt Only,123,168.29894587954402
+4,A busy city street at night with neon signs and rain reflections,C: Guidance Only,123,123.9150556625372
+4,A busy city street at night with neon signs and rain reflections,D: All Combined,123,179.14495359395443
+4,A busy city street at night with neon signs and rain reflections,A: Scheduler Only,456,42.252917745540316
+4,A busy city street at night with neon signs and rain reflections,B: Neg Prompt Only,456,121.28671855827079
+4,A busy city street at night with neon signs and rain reflections,C: Guidance Only,456,82.21170550237963
+4,A busy city street at night with neon signs and rain reflections,D: All Combined,456,138.95393327058764

@@ -1,0 +1,16 @@
+torch>=2.0.0
+transformers
+accelerate
+diffusers
+imageio
+imageio-ffmpeg
+lpips
+scikit-image
+opencv-python
+pillow
+numpy
+pandas
+tiktoken
+sentencepiece
+protobuf
+realesrgan

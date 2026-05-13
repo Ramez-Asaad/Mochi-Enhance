@@ -1,0 +1,5 @@
+Config,FVD vs Baseline
+A: Scheduler Only,90.87 ± 71.82
+B: Neg Prompt Only,145.66 ± 85.90
+C: Guidance Only,150.53 ± 94.31
+D: All Combined,136.36 ± 76.92
