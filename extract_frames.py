@@ -25,7 +25,7 @@ def create_qualitative_grid(raw_df, seed=42):
     # For each prompt, we want Baseline row and Enhanced row
     
     fig, axes = plt.subplots(num_prompts * 2, 3, figsize=(15, 4 * num_prompts))
-    plt.subplots_adjust(wspace=0.05, hspace=0.1)
+    plt.subplots_adjust(wspace=0.05, hspace=0.4)
     
     for i, p_idx in enumerate(sorted(prompts)):
         # Get paths
@@ -65,7 +65,7 @@ def create_qualitative_grid(raw_df, seed=42):
             if j == 0:
                 ax.set_title(f"Enhanced (D: All Combined)", loc='left', fontsize=12, fontweight='bold')
 
-    fig_path = os.path.join(FIGURES_DIR, "fig4_qualitative_grid.png")
+    fig_path = os.path.join(FIGURES_DIR, "qualitative_grid.png")
     plt.savefig(fig_path, dpi=300, bbox_inches='tight')
     plt.close()
     print(f"Saved Qualitative Grid to {fig_path}")
