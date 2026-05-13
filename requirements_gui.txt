@@ -1,0 +1,5 @@
+gradio
+httpx
+python-multipart
+pillow
+numpy

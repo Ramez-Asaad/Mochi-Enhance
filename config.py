@@ -13,6 +13,8 @@ NUM_INFERENCE_STEPS = 50
 NEGATIVE_PROMPT = "blurry, morphed, morphing, jittery, low resolution, deformed, unnatural motion, artifacts, bad anatomy"
 
 EVALUATION_PROMPTS = [
+    "Alexandria bibliothica",
+    
     "A camel moving in the desert with pyramids in the background, dramatic sunset",
     "A golden retriever running through a field of wildflowers, sunny day",
     "Ocean waves crashing on a rocky coastline during a storm, dramatic lighting",
