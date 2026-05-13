@@ -4,7 +4,7 @@ This repository contains the complete experimental pipeline and results for our 
 
 We present a methodology to significantly improve the **temporal consistency** (measured via SSIM/LPIPS) and **semantic alignment** (measured via CLIP-SIM) of generated videos without requiring any fine-tuning or external post-processing networks.
 
-## 🚀 Key Results
+## Key Results
 
 By independently manipulating the Flow Match Euler Discrete Scheduler, injecting structured negative embeddings, and amplifying classifier-free guidance, we achieve:
 - **1.3% absolute improvement in SSIM** (smoother, more stable temporal consistency)
@@ -16,7 +16,7 @@ For full numerical results and analysis, please refer to the `paper.tex` manuscr
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ### 1. Core Pipeline
 - `config.py`: Central configuration file. Defines the generation hyperparameters, the 5 diverse evaluation prompts, the 3 random seeds, and the 5 ablation configurations.
@@ -39,7 +39,7 @@ For full numerical results and analysis, please refer to the `paper.tex` manuscr
 
 ---
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 ### Requirements
 - A multi-GPU environment is highly recommended (we tested on 2x RTX A6000 48GB).
@@ -77,5 +77,5 @@ python3 visualize.py
 python3 extract_frames.py
 ```
 
-## 📝 License
+##  License
 This project is released under the MIT License. Mochi-1-preview model weights are governed by their respective Hugging Face licenses.
