@@ -10,14 +10,14 @@ Our methodology achieves superior results **without any fine-tuning or external 
 
 ---
 
-## 🚀 Key Improvements
+## Key Improvements
 
 By independently manipulating the **Flow Match Euler Discrete Scheduler**, injecting **structured negative embeddings**, and amplifying **classifier-free guidance**, we achieve:
 
-*   📊 **+1.3% Absolute SSIM Improvement**: Smoother, more stable temporal consistency.
-*   📉 **-21% LPIPS Reduction**: Drastic reduction in visual artifacts and "morphing" effects.
-*   ⚡ **Zero Computational Overhead**: Enhancements run natively during diffusion with no extra latency.
-*   🎯 **Improved Prompt Adherence**: Higher CLIP-SIM scores for complex prompts.
+*   **+1.3% Absolute SSIM Improvement**: Smoother, more stable temporal consistency.
+*   **-21% LPIPS Reduction**: Drastic reduction in visual artifacts and "morphing" effects.
+*   **Zero Computational Overhead**: Enhancements run natively during diffusion with no extra latency.
+*   **Improved Prompt Adherence**: Higher CLIP-SIM scores for complex prompts.
 
 ### Qualitative Comparison
 ![Qualitative Results](results/figures/qualitative_grid.png)
@@ -25,7 +25,7 @@ By independently manipulating the **Flow Match Euler Discrete Scheduler**, injec
 
 ---
 
-## 🛠️ Features
+## Features
 
 *   **Parallelized Ablation Suite**: Automatically runs 75+ experiments across multiple GPUs using PyTorch multiprocessing.
 *   **Comprehensive Evaluation**: Built-in lazy-loading metrics suite for CLIP-SIM, SSIM, LPIPS, and Fréchet Video Distance (FVD).
@@ -34,7 +34,7 @@ By independently manipulating the **Flow Match Euler Discrete Scheduler**, injec
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🎮 Usage
+## Usage
 
 ### 1. Launch the Interactive GUI
 Experience the enhancements in real-time with our Gradio-based comparison tool:
@@ -70,7 +70,7 @@ python extract_frames.py
 
 ---
 
-## 📊 Experimental Results
+## Experimental Results
 
 ![Metric Analysis](results/figures/fig1_metrics_bar.png)
 *Figure 2: Statistical improvement in temporal stability (SSIM/LPIPS) across all experimental configurations.*
@@ -80,7 +80,7 @@ For a deep dive into our methodology and numerical analysis, please refer to our
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 *   `app_gui.py`: Interactive Gradio interface for real-time testing.
 *   `main.py`: Orchestration script for parallelized research experiments.
