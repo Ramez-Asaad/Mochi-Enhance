@@ -55,8 +55,8 @@ Mochi-1-preview is a large-scale video diffusion model (~10B parameters). To ens
 
 ```bash
 # Clone the repository
-git clone https://github.com/Ramez-Asaad/selected-topics-in-AI-project.git
-cd selected-topics-in-AI-project
+git clone https://github.com/Ramez-Asaad/Mochi-Enhance.git
+cd Mochi-Enhance
 
 # Install all dependencies (Unified)
 pip install -r requirements.txt
