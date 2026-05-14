@@ -42,7 +42,7 @@ def main():
     # --- Audio Generation ---
     print(f"🎙️ Generating TTS audio...")
     tts_model = TTSModel.load_model()
-    audio_data = tts_model.generate_audio(None, args.prompt)
+    audio_data = tts_model.generate_audio({}, args.prompt)
     audio_temp = "temp_audio.wav"
     scipy.io.wavfile.write(audio_temp, tts_model.sample_rate, audio_data)
 

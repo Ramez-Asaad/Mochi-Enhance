@@ -75,7 +75,7 @@ async def generate(request: GenerateRequest, background_tasks: BackgroundTasks):
         # Note: Pocket TTS might need a voice state. We use a simple generation here.
         # If the user has a specific voice .wav, we could use it. 
         # For now, we use the library's default.
-        audio_data = tts_model.generate_audio(None, request.prompt)
+        audio_data = tts_model.generate_audio({}, request.prompt)
         scipy.io.wavfile.write(audio_temp_path, tts_model.sample_rate, audio_data)
 
         # 3. Merge Audio and Video

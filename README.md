@@ -28,6 +28,8 @@ By independently manipulating the **Flow Match Euler Discrete Scheduler**, injec
 
 ## Features
 
+## Features
+
 * **Parallelized Ablation Suite**: Automatically runs 75+ experiments across multiple GPUs using PyTorch multiprocessing.
 * **Comprehensive Evaluation**: Built-in lazy-loading metrics suite for CLIP-SIM, SSIM, LPIPS, and Fréchet Video Distance (FVD).
 * **Interactive Demo**: A dedicated Gradio GUI for real-time comparison and metric visualization.
@@ -95,6 +97,8 @@ python extract_frames.py
 
 ## Experimental Results
 
+## Experimental Results
+
 ![Metric Analysis](results/figures/fig1_metrics_bar.png)
 *Figure 2: Statistical improvement in temporal stability (SSIM/LPIPS) across all experimental configurations.*
 
@@ -102,6 +106,8 @@ For a deep dive into our methodology and numerical analysis, please refer to our
 📄 **[Read the Paper (PDF)](paper/paper.pdf)**
 
 ---
+
+## Repository Structure
 
 ## Repository Structure
 
