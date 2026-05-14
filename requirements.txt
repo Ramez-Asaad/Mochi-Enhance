@@ -1,3 +1,4 @@
+# Core Dependencies
 torch>=2.0.0
 transformers
 accelerate
@@ -14,3 +15,21 @@ tiktoken
 sentencepiece
 protobuf
 realesrgan
+scipy
+
+# Server & API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Video & Audio Processing
+moviepy
+pocket-tts
+
+# GUI
+gradio
+httpx
+
+# Visualization
+seaborn
+matplotlib

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# LaTeX (temp files)
+paper/*.aux
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.synctex.gz
+paper/*.toc
+paper/*.blg
+paper/*.bbl
+
+# Local Outputs
+outputs/
+results/videos/
+results/results_gpu*.json
+*.mp4
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
